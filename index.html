@@ -1,23 +1,127 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>自己紹介</title>
+  <meta charset="UTF-8" />
+  <title>pizzeria</title>
+  <link rel="stylesheet" type="text/css"
+    href="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/reset.css">
+  <link rel="stylesheet" type="text/css"
+    href="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/5-4-1/css/5-4-
+1.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <div class="section">
+    <img src="images/food_pizza.png" alt="" width="250" height="200">
+    <div class="text">
+      <br><br>
+      <h1> ナポリの窯</h1>
+      <p>pizzeria </p>
+      <p>日本</p>
+    </div>
+    </p>
+  </div>
+  
+  <div class="wrapper">
+    <ul class="tab">
+      <li><a href="#pizza">🍕(ピザ)</a></li>
+      <li><a href="#side"> 🍗(サイドメニュー)</a></li>
+      <li><a href="#feature"> ☝️(特徴)</a></li>
+    </ul>
+    <div id="pizza" class="area">
+      <h2>ピザの種類</h2>
+      <p>
+        ナポリの窯では、ピザの生地にこだわっており、焼き上がりは中はモッチリ、外側がパリッと焼きあがります。
+また、多種類の味を一度に楽しめるハーフ&ハーフやフォーシーズンズピザがあります。さらに、ピザの生地は4種類あります。
+外側がパリッとした薄めの生地のナポリピッツァ、ふっくらした厚めの生地のジャ・パンピザ、サクサクした生地のクリスピーピザ、
+薄めでカリッとした生地のミラノピッツァがある。
+      </p>
+      <ul>
+        <li>
+          <h3>1) ピザ <img src="images/food_pizza_whole.png" width="40" height="40"></h3>
+          <p>普通のピザ。4種類の生地から選べ、様々な味の種類がある。</p>
+          <form> 
+            <p>・選べる生地の種類</p> 
+            <select name="devices"> 
+            <option value="ナポリピッツァ">ナポリピッツァ</option> 
+            <option value="ジャ・パンピザ">ジャ・パンピザ</option>
+            <option value="クリスピーピザ">クリスピーピザ</option>
+            <option value="ミラノピッツァ">ミラノピッツァ</option>
+            </select> 
+            </form>
+        </li>
+        <li>
+          <h3>2) ハーフ&ハーフ <img src="images/food_pizza_whole_half.png" width="40" height="40"></h3>
+          <p>2種類の味を半分づつ味わえるピザ。自分の好きな味にカスタマイズできる。</p>
+          <form> 
+            <p>・選べる生地の種類</p> 
+            <select name="devices"> 
+            <option value="ナポリピッツァ">ナポリピッツァ</option> 
+            <option value="ジャ・パンピザ">ジャ・パンピザ</option>
+            </select> 
+            </form>
+        </li>
+        <li>
+          <h3>3) フォーシーズンズ<img src="images/food_pizza_whole_quarter.png" width="40" height="40"></h3>
+          <p>4種類の味のピザ。ハーフ&ハーフよりも多くの味が味わえる。</p>
+          <form> 
+            <p>・選べる生地の種類</p> 
+            <select name="devices"> 
+            <option value="ジャ・パンピザ">ジャ・パンピザ</option>
+            </select> 
+            </form>
+        </li>
+      </ul>
+      <!--/area-->
+    </div>
 
-  <header>
-    <h1>私の自己紹介</h1>
-  </header>
+    <div id="side" class="area">
+      <h2>メニュー</h2>
+      サイドメニューでは、ピザの他にもパスタやニョッキ、ナゲットやポテトなど様々なメニューがあります。
+      デザートとして、アップルパイやジェラートなどもあります。
+      <body>
+        <table border="1" align="center">
+            <tr>
+                <td colspan="3" align="center" >サイドメニュー</td>
+            </tr>
+            <tr>
+                <td><h3>パスタ・ニョッキ</h3> 
+                <h5>ベーコンのカルボナーラ、紅ずわい蟹のトマトクリームパスタ、海老とニョッキのバジルクリームなど...
+                </h5></td>
+                <td><img src="images/food_spaghetti_bolognese_meatsauce.png" alt="" width="100" height="100"</td>
+                <td><a href="https://www.napolipizza.jp/menu_category/pasta_gratin/">詳しく見る</a></td>
+            </tr>
+            <tr>
+                <td><h3>アンティパスト</h3>
+                <h5>スマイルポテト、バジルチキン、チキンナゲット、ラタトゥユなど...</h5></td>
+                <td><img src="images/food_fried_potato_dish.png" alt="" width="100" height="100"</td>
+                <td><a href="https://www.napolipizza.jp/menu_category/antipast/">詳しく見る</a></td>
+            </tr>
+            <tr>
+                <td><h3>ドルチェ</h3>
+                <h5>ふじりんごのアップルパイ、ティラミス、いちごのドルチェピッツァ、ガトーショコラジェラートなど...</h5></td>
+                <td><img src="images/sweets_tiramisu.png" alt="" width="100" height="100"</td>
+                <td><a href="https://www.napolipizza.jp/menu_category/dolce/">詳しく見る</a></td>
+            </tr>
+        </table>
+    </body>
+    </div>
 
-  <section>
-    <img src="your-image.jpg" alt="自分の写真">
-    <h2>こんにちは、私は[Your Name]です。</h2>
-    <p>趣味や興味があることについて簡単に説明します。自由に編集してください。</p>
-    <p>これは単なる例ですが、HTMLとCSSを使用してウェブページを作成する基本的な方法を示しています。</p>
-  </section>
-
-</body>
-</html>
+    <div id="feature" class="area">
+        <h2>ナポリの窯の特徴</h2>
+        ナポリピザはとにかく生地が命です。ナポリの窯のピザ生地は、原材料にこだわった門外不出の配合で自社工場で手作り。
+宅配ピザ用のピザ生地の発酵・熟成は熟練のプロフェッショナルが行なっております。 焼き上がりは中はモッチリ、外側がパリッと焼きあがります。
+トッピングの素材にもこだわっており、ピザレストランクオリティーのおいしさを宅配ピザでお召し上がり頂けます。 特にチーズへのこだわりは深く、
+世界中から選び抜いた上質な100%ナチュラルチーズを宅配ピザにどっさりと。上質なナチュラルチーズの本来の味、香りを宅配ピザで長く美味しく楽しむことが
+できるように数種類を絶妙な配合でブレンドして使用しております。綺麗な焼き色のついたアツアツの宅配ピザは見た目にも美しく食欲をなお一層そそります。
+ナポリの窯の宅配ピザ・宅配パスタのソースは海外での活躍も長く、パリ・グランバレーで一等入賞をはたした藤木シェフ監修のまさに「こだわりのソース」です。
+宅配ピザ・宅配パスタのどちらにもこの「こだわりのソース」を使用いたしております。 ピザのほか、ナポリの窯のオリジナルのパスタは宅配用に伸びにくく、
+長く美味しさを保つことができます。また一度のご注文でさまざまなお料理をお楽しみいただけるように豊富にサイドメニューも取り揃えております。
+        <h2>ナポリの窯 公式サイト</h2>
+            → <a href="https://www.napolipizza.jp/">https://www.napolipizza.jp/</a>
+        </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/5-4-1/js/5-4-1.js"></script>
+  </body>
+  </html>
