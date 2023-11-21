@@ -1,36 +1,27 @@
-body {
-  font-family: 'Arial', sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
-}
-
-header {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 1em;
-}
-
-section {
-  max-width: 800px;
-  margin: 20px auto;
-  padding: 20px;
-  background-color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 5px;
-}
-
-h1 {
-  color: #333;
-}
-
-p {
-  line-height: 1.6;
-  color: #555;
-}
+.section {
+    display: flex;
+    padding: auto;
+    padding: 40px;
+    width: 60%;
+    margin-left: 500px;
+    
+  }
+  .section .text {
+    margin: 5px;
+    font-size: 20px;
+    color: hsl(0, 98%, 66%);
+  }
+  .section img {
+    height: 250px;
+    margin-left: 220;
+    border-radius: 3em;
+  }
+  select[name="devices"] {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    appearance: none; /* デフォルトの矢印を非表示にする */
+    background-position: right center;
+    background-repeat: no-repeat;
+  }
